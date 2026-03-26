@@ -16,5 +16,11 @@
     "lottie-web": "^5.13.0",
     "nuxt": "^4.4.2",
     "swiper": "^12.1.3"
+  },
+  "scripts": {
+    "pregenerate": "mkdir -p .netlify/functions-internal/server",
+    "generate": "nuxt generate",
+    "build": "nuxt build",
+    "dev": "nuxt dev"
   }
 }
