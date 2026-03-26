@@ -1,0 +1,20 @@
+{
+  "name": "nuxt-project",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "@lottiefiles/vue-lottie-player": "^1.1.0",
+    "@nuxt/content": "^3.12.0",
+    "better-sqlite3": "^12.8.0",
+    "gsap": "^3.14.2",
+    "lottie-web": "^5.13.0",
+    "nuxt": "^4.4.2",
+    "swiper": "^12.1.3"
+  }
+}
