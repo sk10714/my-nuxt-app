@@ -14,6 +14,10 @@ export default defineNuxtConfig({
     'swiper/css/navigation'
   ],
   nitro: {
-    preset: 'static'  // 加入這行
+    preset: 'static',  // 加入這行
+    prerender: {
+      failOnError: false,
+      ignore: ['/blog/製造業行銷-case-1', '/blog/網頁設計']
+    }
   }
 })
