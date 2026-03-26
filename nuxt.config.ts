@@ -12,5 +12,8 @@ export default defineNuxtConfig({
   css: [
     'swiper/css',
     'swiper/css/navigation'
-  ]
+  ],
+  nitro: {
+    preset: 'static'  // 加入這行
+  }
 })
