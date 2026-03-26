@@ -12,8 +12,5 @@ export default defineNuxtConfig({
   css: [
     'swiper/css',
     'swiper/css/navigation'
-  ],
-  nitro: {
-    preset: 'netlify'
-  }
+  ]
 })
